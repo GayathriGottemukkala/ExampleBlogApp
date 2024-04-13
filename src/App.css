@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.main-container{
+  position: relative;
+  top:120px;
+}
+.start-container{
+   
+  display: grid;
+  grid-template-columns: 39% 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:800px) {
+  .start-container{
+  grid-template-columns: 50% 40%;}
+}
+.heading-content span{color: rgb(42, 42, 185);}
+
+.content-button{
+    background-color: rgb(186, 233, 226);
+    border:1px solid rgb(132, 238, 246);
+    border-radius: 15px;
+    outline: none;
+    padding: 15px;
+}
+.daimond-img{
+    width:30px;
+}
+
+.content-para{
+  width:420px;
+}
+
+.text-content{
+  justify-self: start;
+}
+.img-content img{
+  width:100%;
+}
