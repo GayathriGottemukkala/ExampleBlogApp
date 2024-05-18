@@ -11,6 +11,7 @@ import Mentorship from './components/mentorshippage';
 import PracticePage from './components/practicepage';
 import CompetePage from './components/competepage';
 import JobPage from './components/jobspage';
+import ProtectedRoute from './components/example';
 
 function App() {
   return (
@@ -19,7 +20,10 @@ function App() {
      <div className='main-container'>
      <Routes>
       <Route path="/" element={ <Home/>}/>
-      <Route path="/learn" element={<LearnPage/>}/>
+     
+      
+      <Route path="/learn" element={<LearnPage />} />
+      
       <Route path="/mentorship" element={<Mentorship/>}/>
       <Route path="/practice" element={<PracticePage/>}/>
       <Route path="/compete" element={<CompetePage/>}/>
@@ -33,3 +37,5 @@ function App() {
 }
 
 export default App;
+
+
