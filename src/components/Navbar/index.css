@@ -46,6 +46,10 @@
     list-style-type: none;
     gap:30px;
 }
+@media (max-width:600px){
+    .nav-bar ul{gap: 10px;
+    padding-left: 5px;}
+}
 .img-logo{
     width:5rem;
 }

@@ -126,6 +126,9 @@ border-radius: 10px;
 @media screen and (max-width:880px){
     .display-text{display: block;
     padding: 20px;}
+    .banner-section{
+        margin-top: 20px;
+    }
     .home-start-container{
        
         top:90px;}
@@ -216,12 +219,12 @@ perspective: 100%;
 @media  screen and (max-width:900px) {
     .learnup-container {
         flex-direction: column;
-        width:73%;
+    
     }
 }
 .background-image1{
     background-image: url(../images/preparebackg.webp);
-    width:30rem;
+
     background-size: cover;
    
 }
@@ -289,6 +292,9 @@ perspective: 100%;
     display: flex;
    
 
+}
+@media (max-width:600px){
+    .card-items{flex-direction: column;} 
 }
 .card1{
     display: flex;

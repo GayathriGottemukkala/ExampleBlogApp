@@ -28,7 +28,7 @@ class Oppertunities extends Component{
               <Button variant="primary">Learn More</Button>
             </Card.Body>
              </Card>
-             <Card>
+             {/* <Card>
             <Card.Img variant="top" src={require("../../images/opp3.webp")} alt="First card" />
             <Card.Body>
               <Card.Title>First Card1</Card.Title>
@@ -37,7 +37,7 @@ class Oppertunities extends Component{
               </Card.Text>
               <Button variant="primary">Learn More</Button>
             </Card.Body>
-             </Card>
+             </Card> */}
                </div>  
                 </Carousel.Item>
                 <Carousel.Item>
