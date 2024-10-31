@@ -254,8 +254,15 @@ perspective: 100%;
 .content-card ul{
     list-style-image: url("../images/65672c6dc634f_subway_tick.png");
     display: flex;
+  
     justify-content: space-between;
 
+}
+@media (max-width:450px){
+    .content-card ul{
+        flex-direction: column;
+    }
+ 
 }
 .content-card button:hover{
    background-color: rgb(173, 173, 240); 
@@ -286,6 +293,9 @@ perspective: 100%;
     
     justify-content: center;
     grid-template-columns: 59%;
+}
+@media (max-width:800px){
+    .practice-coding-section{  grid-template-columns: 80%;}
 }
 
 .card-items{
